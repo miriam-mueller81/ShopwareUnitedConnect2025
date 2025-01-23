@@ -22,7 +22,9 @@ _project-structure:
 .PHONY: _install
 _install:
 	ddev composer i
-	ddev exec bin/console system:generate-jwt-secret
+	ddev exec bin/console system:generate-jwt-secret -f
+	ddev exec bin/console asset:install
+	ddev exec bin/console theme:compile
 
 .PHONY: _import-db
 _import-db:
