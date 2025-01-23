@@ -17,7 +17,6 @@
 /var/*
 !/var/.htaccess
 /auth.json
-/install.lock
 public/asset-manifest.json
 .uniqueid.txt
 tests

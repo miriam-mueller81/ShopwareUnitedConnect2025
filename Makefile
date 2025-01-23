@@ -1,5 +1,5 @@
 .PHONY: init
-init: down _project-structure _install _import-db
+init: down _project-structure _import-db _install
 
 .PHONY: up
 up:
