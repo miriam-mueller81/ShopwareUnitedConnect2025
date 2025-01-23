@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12699dd8c64422357459857374fe9d21",
+    "content-hash": "920cf5bbe49e13bebbad6f3f0445c817",
     "packages": [
         {
             "name": "async-aws/core",
@@ -3460,6 +3460,42 @@
                 }
             ],
             "time": "2023-12-09T23:20:59+00:00"
+        },
+        {
+            "name": "mmueller/shopware-flow-builder-stock-example",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miriam-mueller81/ShopwareFlowBuilderStockExample.git",
+                "reference": "af54c42fa34e19129f319def3d9ebf047725a17f"
+            },
+            "require": {
+                "shopware/core": "~6.6.0"
+            },
+            "default-branch": true,
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "ShopwareFlowBuilderStockExample\\ShopwareFlowBuilderStockExample",
+                "label": {
+                    "de-DE": "Skeleton plugin",
+                    "en-GB": "Skeleton plugin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShopwareFlowBuilderStockExample\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "ShopwareFlowBuilderStockExample\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "mmueller/shopware-flow-builder-stock-example",
+            "time": "2025-01-23T16:40:12+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -12862,7 +12898,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "mmueller/shopware-flow-builder-stock-example": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
