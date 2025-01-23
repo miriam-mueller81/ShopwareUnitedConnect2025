@@ -16,10 +16,13 @@ ssh:
 .PHONY: _project-structure
 _project-structure:
 	mkdir -p custom/plugins && mkdir -p custom/apps && mkdir -p custom/static-plugins
+	cp docker/.env.local ./.env
+	rm -f ./.uniqueid.txt
 
 .PHONY: _install
 _install:
 	ddev composer i
+	ddev exec bin/console system:generate-jwt-secret
 
 .PHONY: _import-db
 _import-db:
