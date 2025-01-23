@@ -1,7 +1,5 @@
 .PHONY: init
-init:
-	_project-structure
-	_install
+init: _project-structure _install
 
 .PHONY: up
 up:
@@ -15,8 +13,10 @@ down:
 ssh:
 	ddev ssh
 
+.PHONY: _install
 _install:
 	ddev composer i
 
+.PHONY: _project-structure
 _project-structure:
 	mkdir -p custom/plugins && mkdir -p custom/apps && mkdir -p custom/static-plugins

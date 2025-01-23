@@ -5,6 +5,7 @@
     "composer-runtime-api": "^2.0",
     "shopware/administration": "*",
     "shopware/core": "v6.6.9.0",
+    "shopware/dev-tools": "^1.4",
     "shopware/elasticsearch": "*",
     "shopware/storefront": "*",
     "symfony/flex": "~2"

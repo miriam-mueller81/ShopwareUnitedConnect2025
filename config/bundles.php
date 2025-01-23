@@ -16,4 +16,5 @@ return [
     Shopware\Administration\Administration::class => ['all' => true],
     Shopware\Elasticsearch\Elasticsearch::class => ['all' => true],
     Shopware\Storefront\Storefront::class => ['all' => true],
+    Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['dev' => true, 'test' => true],
 ];

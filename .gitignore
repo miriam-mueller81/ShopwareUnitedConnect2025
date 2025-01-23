@@ -6,6 +6,7 @@
 .env.local
 .env.local.php
 .env.*.local
+.env.test
 /public/bundles/*
 /public/media/*
 /public/theme/*
@@ -19,4 +20,10 @@
 /install.lock
 public/asset-manifest.json
 .uniqueid.txt
+tests
 ###< shopware/core ###
+
+###> phpunit/phpunit ###
+/phpunit.xml*
+.phpunit.result.cache
+###< phpunit/phpunit ###
