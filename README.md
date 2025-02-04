@@ -35,22 +35,22 @@ You can find all the code examples from my presentation in my example plugin. Th
 This repository contains a shopware demo setup based on ddev (https://ddev.com).
 In this demo, the example plugin is already integrated via composer.
 
-**Install demo**
+### Install demo
 
 Make sure ddev is installed on your computer.
 
 `make init`
 
-**Stop demo**:
+### Stop demo
 `make down`
 
-**Start demo**:
+### Start demo
 `make up`
 
-**SSH to container**:
+### SSH to container
 `make ssh`
 
-**Show infos**:
+### Show infos
 
 Show infos about local project url, database connection and local mailpit url.
 
