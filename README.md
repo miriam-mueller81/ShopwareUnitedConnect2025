@@ -35,6 +35,9 @@ You can find all the code examples from my presentation in my example plugin. Th
 This repository contains a shopware demo setup based on ddev (https://ddev.com).
 In this demo, the example plugin is already integrated via composer.
 
+Admin username: demo
+Admin password: pass1234
+
 ### Install demo
 
 Make sure ddev is installed on your computer.
