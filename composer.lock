@@ -3467,7 +3467,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/miriam-mueller81/ShopwareFlowBuilderStockExample.git",
-                "reference": "3b9bc2d4f1a899914bd3b4b76099b50690ce8d6c"
+                "reference": "4656486ff11a01fd6e61986a417230e3f766fd31"
             },
             "require": {
                 "shopware/core": "~6.6.0"
@@ -3495,7 +3495,7 @@
                 "MIT"
             ],
             "description": "mmueller/shopware-flow-builder-stock-example",
-            "time": "2025-02-04T10:38:02+00:00"
+            "time": "2025-02-04T12:09:15+00:00"
         },
         {
             "name": "monolog/monolog",
