@@ -13,6 +13,10 @@ down:
 ssh:
 	ddev ssh
 
+.PHONY: info
+info:
+	ddev describe
+
 .PHONY: _project-structure
 _project-structure:
 	cp docker/.env.local ./.env
